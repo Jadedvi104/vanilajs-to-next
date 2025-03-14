@@ -8,6 +8,9 @@ export default {
   ],
   theme: {
     extend: {
+      backgroundImage:{
+        tyrefilterImg: "url('/images/SOne_index_bg_searchtype.jpg')"
+      },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
