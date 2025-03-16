@@ -10,6 +10,7 @@ export default {
     extend: {
       backgroundImage:{
         tyrefilterImg: "url('/images/SOne_index_bg_searchtype.jpg')"
+        ,bannerImage: "url('/images/SOne_index_banner.jpg')"
       },
       colors: {
         background: "var(--background)",
