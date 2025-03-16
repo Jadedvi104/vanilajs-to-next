@@ -1,5 +1,6 @@
 import React from "react";
 import FindTire from "@/components/micros/FindTire";
+import MainBanner from "@/components/micros/MainBanner";
 
 const BannerAndSearch = () => {
   return (
@@ -17,10 +18,7 @@ const BannerAndSearch = () => {
         >
           {/* Find Tire Section */}
           <FindTire />
-            <div
-              className="bg-bannerImage  
-          w-max"
-            ></div>
+          <MainBanner/>
         </div>
       </section>
     </>

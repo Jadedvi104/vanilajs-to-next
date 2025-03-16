@@ -12,7 +12,7 @@ const SearchBranch = () => {
               <div className="flex flex-col items-center my-2 mx-4">
                 <div className="my-2">
                   {searchData.map((value, i) => (
-                    <div className="flex flex-row ">
+                    <div key={i} className="flex flex-row">
                       <span className="text-white mr-2">{value.name}</span>
                       <select className="bg-gray-50 border border-gray-300 text-gray-900 text-[0.625rem] rounded-sm focus:ring-blue-500 focus:border-blue-500 block h-8 w-full p-2.5 my-1 text-xsdark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500">
                         <option defaultValue>--Choose Width--</option>
