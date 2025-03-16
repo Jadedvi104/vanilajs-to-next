@@ -15,3 +15,10 @@ export const navigation = [
     { name: "FAQS", href: "#" },
     { name: "Location", href: "#" },
   ];
+
+
+  export const searchData = [
+    { name: "State", href: "#" },
+    { name: "City", href: "#" },
+    { name: "Road", href: "#" },
+  ];
