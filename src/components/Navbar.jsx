@@ -1,14 +1,5 @@
 import { Tab, TabGroup, TabList } from "@headlessui/react";
-import Social from "../components/Social";
-
-const navigation = [
-  { name: "Product", href: "#" },
-  { name: "Promotions", href: "#" },
-  { name: "News & Events", href: "#" },
-  { name: "Safety Tips", href: "#" },
-  { name: "FAQS", href: "#" },
-  { name: "Location", href: "#" },
-];
+import {navigation} from "@/data/NavbarSelection"
 
 export default function Navbar() {
   return (
