@@ -1,11 +1,10 @@
 import React from "react";
-import { searchData } from "@/data/NavbarSelection";
 
 const Subscribe = () => {
   return (
     <>
       <div className="flex flex-col bg-gray-500 w-1/4">
-        <img src="/images/tips_01.jpg"></img>
+        <img src="/images/banner_promotion_01.jpg"></img>
         <div className="flex flex-row bg-white">
           <h1 className="text-black"> Subscription</h1>
           <input type="eamil" id="email-sub" placeholder="please input"></input>

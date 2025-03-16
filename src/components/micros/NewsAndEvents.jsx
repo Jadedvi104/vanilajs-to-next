@@ -11,7 +11,7 @@ const NewsAndsEvents = () => {
             </div>
             <div className="flex flex-row justify-between bg-white">
               {newsAndEvents.map((val, i) => (
-                <div className="my-2 mx-2">
+                <div key={i} className="my-2 mx-2">
                   <img src="/images/SOne_index_news_23.jpg" alt=""></img>
                   <span className="text-xs">{val.desc}</span>
                 </div>
