@@ -3,6 +3,7 @@ import Logos from "../components/Logos";
 import BannerAndSearch from "../components/BannerAndSearch";
 import Categories from "../components/Categories";
 import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import BottomSection from "../components/BottomSection";
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
         <BannerAndSearch />
         <Categories />
         <BottomSection />
+        <Footer/>
       </div>
     </>
   );
