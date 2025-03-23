@@ -10,6 +10,7 @@ const BannerAndSearch = () => {
           className="
       flex 
       flex-nowrap 
+      justify-center
       bg-gray
       h-auto 
       max-w-screen

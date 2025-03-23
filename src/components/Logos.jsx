@@ -5,20 +5,10 @@ import Form from "next/form";
 
 export default function Logos() {
   return (
-    <section className="flex justify-between py-3 bg-white">
+    <section className="flex justify-between items-center py-3 bg-white">
       {/* Left side*/}
       <div className="">
-        <a href="#" className="-m-1.5 p-1.5">
-          <span className="sr-only">Your Company</span>
-          <NextImage
-            className="h-14 w-auto"
-            src="/images/SOne_index_logo.png"
-            alt="#"
-            width={550}
-            height={60}
-            priority
-          />
-        </a>
+        <img src="/images/SOne_index_logo.png" ></img>
       </div>
 
       {/* Right side*/}
