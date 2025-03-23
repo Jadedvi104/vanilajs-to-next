@@ -12,7 +12,7 @@ export default function Home() {
       <Head>
         <title>My-migration</title>
       </Head>
-      <div className="flex flex-col">
+      <div className="flex flex-col w-[90%] mx-auto">
         <Logos />
         <Navbar />
         <BannerAndSearch />
