@@ -5,14 +5,14 @@ import Form from "next/form";
 
 export default function Logos() {
   return (
-    <section className="flex justify-between items-center py-3 bg-white">
+    <section className="flex justify-between items-center p-3 bg-white">
       {/* Left side*/}
       <div className="">
         <img src="/images/SOne_index_logo.png" ></img>
       </div>
 
       {/* Right side*/}
-      <div className="py-4">
+      <div className="hidden md:flex flex-col py-4">
         <div className="flex justify-end flex-row my-2">
           <div
             className="mx-1 
@@ -29,7 +29,7 @@ export default function Logos() {
           ></div>
         </div>
 
-        <div className="flex flex-row justify-end my-2">
+        <div className="hidden md:flex flex-row justify-end my-2">
           <Form action="/search">
             {/* On submission, the input value will be appended to 
           the URL, e.g. /search?query=abc */}
@@ -55,15 +55,10 @@ export default function Logos() {
               </svg>
               <span className="sr-only">Icon description</span>
             </button>
-            {/* <div
-                className="
-              bg-[url('/images/SOne_index_btsearch.jpg')] hover:bg-[url('/images/SOne_index_btgo.jpg')] bg-cover 
-              w-6 h-6"
-              ></div> */}
           </Form>
         </div>
 
-        <div className="flex flex-row space-x-2">
+        <div className="hidden md:flex flex-row space-x-2">
           <div >About S-ONE |</div>
           <div >Job Opportunity |</div>
           <div >Contact Us |</div>
