@@ -3,7 +3,7 @@ import React from "react";
 const FindTire = () => {
   return (
     <>
-      <div id="find-tyre"  className="max-w-max my-2">
+      <div id="find-tyre"  className="max-w-max m-2">
             <h1 id="find-tyre-header" 
             className="text-gray-50 bg-orange-600">Find Tyre</h1>
             <div
