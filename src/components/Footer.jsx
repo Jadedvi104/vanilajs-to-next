@@ -3,7 +3,7 @@ export default function Footer() {
   return (
     <section>
       <div className="flex flex-row mt-2">
-        <div className="h-12 w-1/6">
+        <div className="hidden md:h-12 md:w-1/6">
           <img src="/images/SOne_index_logo.png" alt="" className="items-center h-12 mx-2"/>
         </div>
         <div
@@ -14,8 +14,8 @@ export default function Footer() {
           py-1
           my-1
           max-w-screen
-          w-5/6
-          
+          w-full
+          md:w-5/6
         "
         >
           <h1 className="text-white ml-1">@Copyright 2025</h1>

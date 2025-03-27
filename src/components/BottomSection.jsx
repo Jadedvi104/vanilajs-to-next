@@ -7,7 +7,7 @@ const BottomSection = () => {
   return (
     <>
       <section>
-        <div className="flex justify-center bg-white h-auto w-full">
+        <div className="flex flex-col md:flex-row justify-center bg-white h-auto w-full">
           {/* Left*/}
           <SearchBranch />
           {/* Mid*/}

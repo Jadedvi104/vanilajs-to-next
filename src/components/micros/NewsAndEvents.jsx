@@ -4,7 +4,7 @@ import { newsAndEvents } from "@/data/NavbarSelection";
 const NewsAndsEvents = () => {
   return (
     <>
-      <div className="flex flex-col bg-orange-600 w-2/4">
+      <div className="flex flex-col bg-orange-600 w-full md:w-2/4">
             <div className="flex bg-white">
               <h1 className="text-black  grow">News & Events</h1>
               <h1 className="text-blac flex-none">tabs</h1>

@@ -4,7 +4,7 @@ import { searchData } from "@/data/NavbarSelection";
 const SearchBranch = () => {
   return (
     <>
-      <div className="bg-orange-500 mx-2 w-1/4">
+      <div className="bg-orange-500 mx-2 w-full md:w-1/4 ">
             <h1 className="text-white mx-2">
               Find Nearest Service Center
             </h1>

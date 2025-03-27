@@ -3,7 +3,7 @@ import React from "react";
 const Subscribe = () => {
   return (
     <>
-      <div className="flex flex-col bg-white w-[20%] p-1">
+      <div className="flex flex-col bg-white w-full md:w-[20%] p-1">
         <img src="/images/banner_promotion_01.jpg" className="w-full"></img>
         <div className="flex flex-row bg-white w-full p-2">
           <span className="text-sm font-mediumtext-black flex items-center h-10"> Subscription</span>
