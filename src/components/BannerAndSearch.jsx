@@ -17,7 +17,7 @@ const BannerAndSearch = () => {
           id="banner-container"
           className="
           flex 
-          flex-col md:flex-row
+          flex-col lg:flex-row
           justify-center
           align-middle
           items-center
