@@ -7,13 +7,13 @@ const FindTire = () => {
             <h1 className="text-gray-50 bg-orange-600 min-w-64">Find Tyre</h1>
             <div
               className="
+              bg-orange-600
               relative 
               bg-tyrefilterImg 
-              w-full h-full 
+              w-full h-[92%]
               bg-no-repeat"
             >
               <div className="absolute right-[1.8rem]">
-                <div className="">
                   <div>
                     <h1 className="text-white">TyreWidth</h1>
                     <p className="text-white text-xs">{`Size(mm)`}</p>
@@ -38,9 +38,6 @@ const FindTire = () => {
                       <option value="220">220</option>
                     </select>
                   </div>
-
-                  
-                </div>
               </div>
             </div>
           </div>
