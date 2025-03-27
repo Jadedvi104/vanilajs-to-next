@@ -1,5 +1,5 @@
 <h1>Purpose</h1>
-<span> In this repo, I am modernize legazy code from HTML,CSS and JS to Next.js and Tailwind</span>
+<span> In this repo, I am modernize legazy code from HTML,CSS and vanila JS to Next.js and Tailwind</span>
 
 <h3>Old Layout</h3>
 
