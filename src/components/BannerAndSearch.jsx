@@ -18,7 +18,9 @@ const BannerAndSearch = () => {
           className="
           flex 
           flex-col md:flex-row
-          justify-between
+          justify-center
+          align-middle
+          items-center
           "
         >
           <FindTire />
