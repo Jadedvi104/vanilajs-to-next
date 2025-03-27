@@ -5,21 +5,24 @@ import MainBanner from "@/components/micros/MainBanner";
 const BannerAndSearch = () => {
   return (
     <>
-      <section>
+      <section
+        id="banner"
+        className="
+          h-auto 
+          max-w-screen
+          min-h-[18rem]
+          "
+      >
         <div
+          id="banner-container"
           className="
-      flex 
-      flex-nowrap 
-      justify-center
-      bg-gray
-      h-auto 
-      max-w-screen
-      min-h-[18rem]
-      "
+          flex 
+          flex-col md:flex-row
+          justify-between
+          "
         >
-          {/* Find Tire Section */}
           <FindTire />
-          <MainBanner/>
+          <MainBanner />
         </div>
       </section>
     </>
