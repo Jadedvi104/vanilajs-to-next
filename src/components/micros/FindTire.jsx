@@ -3,17 +3,22 @@ import React from "react";
 const FindTire = () => {
   return (
     <>
-      <div className="shrink-0 mr-2">
-            <h1 className="text-gray-50 bg-orange-600 min-w-64">Find Tyre</h1>
+      <div id="find-tyre"  className="max-w-max my-2">
+            <h1 id="find-tyre-header" 
+            className="text-gray-50 bg-orange-600">Find Tyre</h1>
             <div
+              id="tyre-slections-bg"
               className="
-              bg-orange-600
-              relative 
-              bg-tyrefilterImg 
-              w-full h-[92%]
-              bg-no-repeat"
+              relative
+              bg-gray-600 
+              "
             >
-              <div className="absolute right-[1.8rem]">
+              <img id="tyre-slections-bg" src="/images/SOne_index_bg_searchtype.jpg" className="z-0 object-fill w-full h-full"/>
+
+              <div 
+                id="tyre-slections" 
+                className="
+                z-10 absolute bottom-12 right-12">
                   <div>
                     <h1 className="text-white">TyreWidth</h1>
                     <p className="text-white text-xs">{`Size(mm)`}</p>
