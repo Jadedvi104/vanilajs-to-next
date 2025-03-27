@@ -5,9 +5,12 @@ import Form from "next/form";
 
 export default function Logos() {
   return (
-    <section className="flex justify-between items-center p-3 bg-white">
+    <section className="
+    flex 
+    align-middle justify-between items-center 
+    p-4 bg-white">
       {/* Left side*/}
-      <div className="">
+      <div className="mx-4">
         <img src="/images/SOne_index_logo.png" ></img>
       </div>
 
